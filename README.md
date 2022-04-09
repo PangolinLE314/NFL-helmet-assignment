@@ -12,7 +12,7 @@ These are the main steps in the algorithm:
 + Mapping between baseline-helmets and player tracking using findHomography + Hungarian algorithm
 
 # Installation
-- All third party modules are cloned and put to `app/modules`
+- All third party modules are cloned and put to `app/modules` as submodules
 ## Using pip:
 - Create a virtualenv:
 ```
