@@ -1,0 +1,12 @@
+[submodule "helmet-assignment"]
+	path = app/modules/helmet_assignment
+	url = https://github.com/RobMulla/helmet-assignment
+[submodule "easydict"]
+	path = app/modules/easydict
+	url = https://github.com/makinacorpus/easydict
+[submodule "app/modules/easydict"]
+	path = app/modules/easydict
+	url = https://github.com/makinacorpus/easydict
+[submodule "app/modules/helmet_assignment"]
+	path = app/modules/helmet_assignment
+	url = https://github.com/RobMulla/helmet-assignment
