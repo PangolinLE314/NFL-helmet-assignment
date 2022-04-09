@@ -1,0 +1,13 @@
+__pycache__
+.pytest_cache
+.mypy_cache
+.coverage
+.dockerignore
+.virtualenv
+.gitignore
+Dockerfile
+README.md
+setup.sh
+output/*
+skillcorner
+input/*
