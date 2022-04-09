@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "SkillCorner technical test"
+version = "0.1.0"
+description = "Kaggle competition on NFL safety"
+authors = ["Thuc Trinh LE <lethuctrinh060591@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+
+[tool.poetry.dev-dependencies]
+torchvision = "^0.12.0"
+pylint = "^2.9.6"
+pylint-quotes = "^0.2.3"
+yapf = "^0.31.0"
+mypy = "^0.910"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+mock = "^4.0"
+numpy = "1.21.1"
+pyyaml = "^6.0"
+opencv-python = "*"
+pandas = "^1.4.0"
+tqdm = "^4.62.3"
+
+matplotlib = "^3.5.1"
+decord = ">=0.6.0"
+plotly = "^5.5.0"
+scikit-learn = "^1.0.2"
+PyYAML = "^6.0"
+ipython = "^8.0.1"
+easydict = { path = "app/modules/easydict", develop = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
